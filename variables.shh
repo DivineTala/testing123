@@ -1,0 +1,16 @@
+#!/bin/bash
+
+    #Author : Me
+    #Dtae : 09-80-2020
+
+##-----------variables allow to contain values that we want to use several times in our scripts------
+
+FIRST_NAME=Dianna
+LAST_NAME=King
+AGE=20
+COLOUR=PURPLE
+
+echo "${FIRST_NAME} is a very hardworking girl"
+echo "Her last name is ${LAST_NAME} and her favorite color is ${AGE} years old"
+echo "${FIRST_NAME}is ${AGE} years old"
+echo "$FIRST_NAME is not defined"

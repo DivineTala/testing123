@@ -1,0 +1,15 @@
+#!/bin/bash
+
+    #Author : Me
+    #Dtae : 09-80-2020
+
+##-----------variables allow to contain values that we want to use several times in our scripts------
+
+
+yum install finger -y 
+if [$? -eq 0]
+    then
+    echo "finger installed successfully"
+else
+    echo "finger did not install"
+fi 
